@@ -1,0 +1,15 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node ./script/merge.js",
+    "dev": "mintlify dev",
+    "start": "node ./script/merge.js && mintlify dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

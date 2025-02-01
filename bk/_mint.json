@@ -25,10 +25,6 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
-  "footerSocials": {
-    "github": "https://github.com/Cloud-Xero",
-    "instagram": "https://instagram.com/komachan.03"
-  },
   "tabs": [
     {
       "name": "API Reference",
@@ -66,37 +62,11 @@
   ],
   "navigation": [
     {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    },
-    {
-      "group": "Backend",
-      "pages": [
-        "backend/introduction"
-      ]
-    },
-    {
       "group": "Get Started",
       "pages": [
         "introduction",
         "quickstart",
         "development"
-      ]
-    },
-    {
-      "group": "DevOps",
-      "pages": [
-        "devops/introduction"
       ]
     },
     {
@@ -111,10 +81,41 @@
       ]
     },
     {
+      "group": "API Documentation",
+      "pages": [
+        "api-reference/introduction"
+      ]
+    },
+    {
+      "group": "Endpoint Examples",
+      "pages": [
+        "api-reference/endpoint/get",
+        "api-reference/endpoint/create",
+        "api-reference/endpoint/delete"
+      ]
+    },
+    {
       "group": "Frontend",
       "pages": [
         "frontend/introduction"
       ]
+    },
+    {
+      "group": "Backend",
+      "pages": [
+        "backend/introduction"
+      ]
+    },
+    {
+      "group": "DevOps",
+      "pages": [
+        "devops/introduction"
+      ]
     }
-  ]
+
+  ],
+  "footerSocials": {
+    "github": "https://github.com/Cloud-Xero",
+    "instagram": "https://instagram.com/komachan.03"
+  }
 }
